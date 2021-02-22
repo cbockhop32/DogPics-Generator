@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8dca4a3d48.js" crossorigin="anonymous"></script>
+    <title>Dog Picture Finder</title>
+</head>
+<body>
+
+    <header>
+        <i class="fas fa-dog fa-4x"></i>
+        <h1>Dog Picture Search</h1>
+    </header>
+
+    <div class="container" id="container">
+        
+        <div class="container-search">
+            <h2>Select Breed of Dog You Would like to view:</h2>
+            <select  id="list" class="list"></select>
+    
+        </div>
+
+        <div class="container-results-count" id="results-count">
+           
+        </div>
+    
+        <div class="container-results" id="results">
+            <div class="onload-card">
+                <img src="dog.png" alt="" id="onload-card-img" class="onload-card-img">
+                <p>Welcome to Dog Picture Search. Select a breed at the top to view more images!</p>
+            </div>
+
+            
+
+
+
+        </div>
+
+        <div class="loader" id="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+
+        <div class="modal" id="modal">
+            <img src="https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg" alt="" id="modal-img" class="modal-img">
+
+        </div>
+
+        <button>
+            <i class="fas fa-arrow-circle-up" id="btn-scroll-top"></i>
+        </button>
+
+
+            
+
+
+    </div>
+
+    
+    <footer>
+
+    </footer>
+
+  
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>
